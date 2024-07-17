@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.link-page {
+  text-align: center;
+  padding: 20px;
+}
+
+.copy-button, .original-button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.copy-button:hover, .original-button:hover {
+  background-color: #3e8e41;
+}
+
+.original-button {
+  margin-top: 20px;
+}
